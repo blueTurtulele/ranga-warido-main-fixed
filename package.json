@@ -1,0 +1,45 @@
+{
+  "name": "warido-ranga-next",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@artsy/fresnel": "^6.1.0",
+    "@emailjs/browser": "^3.10.0",
+    "classnames": "^2.3.2",
+    "next": "13.2.1",
+    "phosphor-react": "^1.4.1",
+    "photoswipe": "^5.3.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.43.2",
+    "react-hook-recaptcha": "^2.0.1",
+    "react-masonry-css": "^1.0.16",
+    "react-photoswipe-gallery": "^2.2.6",
+    "react-text-mask": "^5.5.0",
+    "sass": "^1.58.3",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.2.1",
+    "@types/node": "18.14.1",
+    "@types/react": "18.0.28",
+    "@types/react-google-recaptcha": "^2.1.5",
+    "@types/react-text-mask": "^5.4.11",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.35.0",
+    "eslint-config-next": "13.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}

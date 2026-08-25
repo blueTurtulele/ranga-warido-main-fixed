@@ -1,0 +1,47 @@
+.grid {
+  margin-top: 3rem;
+  display: flex;
+  margin-left: -30px;
+  /* gutter size offset */
+  width: auto;
+
+  &__column {
+    padding-left: 30px;
+    /* gutter size */
+    background-clip: padding-box;
+  }
+
+  &__column > * {
+    display: flex;
+    border-radius: var(--br-normal);
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: var(--shadow-small);
+    will-change: transform;
+    margin-bottom: 30px;
+    transition: transform 250ms ease, box-shadow 250ms ease;
+    transition-delay: 50ms;
+    outline-color: transparent;
+    outline-offset: 0.5rem;
+
+    & > img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover;
+    }
+
+    &:hover,
+    &:focus-visible {
+      transform: translateY(-10px);
+      transition-delay: 0ms;
+      box-shadow: var(--shadow-small-down);
+    }
+
+    &:focus-visible {
+      outline: 3px dashed var(--clr-accent);
+    }
+  }
+}
