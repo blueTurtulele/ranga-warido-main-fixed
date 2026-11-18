@@ -13,7 +13,7 @@ const UslugiAudytorskie: NextPage = () => {
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dokumentacja cen transferowych | Ranga × Warido" />
+        <meta property="og:title" content="Dokumentacja cen transferowych | Ranga ASG × Ranga Audyt ASG" />
         <meta property="og:description" content="Posiadamy wieloletnie w zakresie sporządzania lokalnej dokumentacji cen transferowych oraz analiz porównawczych (benchmarkingów)." />
         <meta property="og:image" content="https://ranga.net.pl/feat.png" />
 
@@ -26,7 +26,7 @@ const UslugiAudytorskie: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="Dokumentacja cen transferowych | Ranga × Warido" />
+        <meta name="twitter:title" content="Dokumentacja cen transferowych | Ranga ASG × Ranga Audyt ASG" />
         <meta name="twitter:description" content="Posiadamy wieloletnie w zakresie sporządzania lokalnej dokumentacji cen transferowych oraz analiz porównawczych (benchmarkingów)." />
         <meta name="twitter:image" content="https://ranga.net.pl/feat.png" />
       </Head>

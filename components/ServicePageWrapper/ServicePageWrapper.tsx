@@ -34,7 +34,7 @@ const ServicePageWrapper: FC<PropsWithChildren<Props>> = ({
   return (
     <>
       <Head>
-        <title>{title} | Ranga &times; Warido</title>
+        <title>{title} | RANGA ASG &times; RANGA AUDYT ASG</title>
       </Head>
       <Container>
         <Header activeMenuItem={serviceId} />

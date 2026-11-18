@@ -9,7 +9,7 @@ const Footer: FC = () => {
       <Container className={styles.inner}>
         <Logos white />
         <p className={styles.text}>
-          © {new Date().getFullYear()} Ranga &times; Warido. Wszelkie prawa zastrzeżone.
+          © {new Date().getFullYear()} Ranga ASG &times; Ranga AUDYT ASG. Wszelkie prawa zastrzeżone.
           <br />
            Strona wykorzystuje pliki cookies wyłącznie w celach technicznych<br />
           Wykonane przez <a href="https://github.com/snacksncode/">@snacksncode</a>

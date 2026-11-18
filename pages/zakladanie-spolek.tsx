@@ -16,7 +16,7 @@ const ZakladanieSpolek: NextPage = () => {
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Zakładanie spółek | Ranga × Warido" />
+        <meta property="og:title" content="Zakładanie spółek | Ranga ASG × Ranga Audyt ASG" />
         <meta
           property="og:description"
           content="Dla klientów naszego biura rachunkowego nieodpłatnie służymy wiedzą i pomocą w założeniu spółki w portalu S24."
@@ -32,7 +32,7 @@ const ZakladanieSpolek: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="Zakładanie spółek | Ranga × Warido" />
+        <meta name="twitter:title" content="Zakładanie spółek | Ranga ASG × Ranga Audyt ASG" />
         <meta
           name="twitter:description"
           content="Dla klientów naszego biura rachunkowego n ieodpłatnie służymy wiedzą i pomocą w założeniu spółki w portalu S24."

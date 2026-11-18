@@ -49,19 +49,19 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Strona Główna | Ranga × Warido</title>
-        <meta
-          name="description"
-          content="Firmy Usługi Księgowe i Audytorskie „RANGA” oraz Warido Audyt ASG Sp. z o.o. z siedzibą w Bielsku-Białej"
-        />
+        <title>Biuro rachunkowe Bielsko-Biała | Ranga ASG × Ranga Audyt ASG</title>
+       <meta
+  name="description"
+  content="Biuro rachunkowe Ranga ASG w Bielsku-Białej. Prowadzenie ksiąg rachunkowych, rozliczenia podatkowe oraz obsługa kadrowo-płacowa. Sprawdź naszą ofertę."
+/>
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Strona Główna | Ranga × Warido" />
-        <meta
-          property="og:description"
-          content="Firmy Usługi Księgowe i Audytorskie „RANGA” oraz Warido Audyt ASG Sp. z o.o. z siedzibą w Bielsku-Białej"
-        />
+        <meta property="og:title" content="Strona Główna | Biuro rachunkowe Bielsko-Biała| Ranga ASG × Ranga Audyt ASG" />
+      <meta
+  property="og:title"
+  content="Biuro rachunkowe Bielsko-Biała | Ranga ASG × Ranga Audyt ASG"
+/>
         <meta property="og:image" content="https://ranga.net.pl/feat.png" />
 
         <meta property="og:image:url" content="http://ranga.net.pl/feat.png" />
@@ -73,11 +73,12 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="Strona Główna | Ranga × Warido" />
+        <meta name="twitter:title" content="Strona Główna | Biuro rachunkowe Bielsko-Biała | Ranga ASG × Ranga Audyt ASG
+        Biuro rachunkowe Ranga ASG w Bielsku-Białej. Prowadzenie ksiąg rachunkowych, rozliczenia podatkowe oraz obsługa kadrowo-płacowa. Sprawdź naszą ofertę." />
         <meta
-          name="twitter:description"
-          content="Firmy Usługi Księgowe i Audytorskie „RANGA” oraz Warido Audyt ASG Sp. z o.o. z siedzibą w Bielsku-Białej"
-        />
+  property="og:title"
+  content="Biuro rachunkowe Bielsko-Biała | Ranga ASG × Ranga Audyt ASG"
+/>      
         <meta name="twitter:image" content="https://ranga.net.pl/feat.png" />
       </Head>
       {showAfterHours && (
@@ -137,14 +138,14 @@ const Home: NextPage = () => {
     <h3 className={styles.item__title}>Kim jesteśmy?</h3>
 
     <Paragraph>
-      Firmy Usługi Księgowe i Audytorskie „RANGA” oraz Ranga Audyt ASG Sp. z o.o.
+      Ranga ASG Sp. z o.o. oraz Ranga Audyt ASG Sp. z o.o.
       z siedzibą w Bielsku-Białej zostały założone przez biegłego rewidenta -
       Angelikę Sadłoń-Grabską - w rejestrze biegłych rewidentów nr 12610.
     </Paragraph>
 
     <Paragraph>
       Z dniem 9 lipca 2026 r. nasza firma, dotychczas działająca pod nazwą
-      Warido Audyt ASG Sp. z o.o. officially zmieniła nazwę na Ranga Audyt ASG
+      Warido Audyt ASG Sp. z o.o. oficjalnie zmieniła nazwę na Ranga Audyt ASG
       Sp. z o.o.
     </Paragraph>
 
@@ -318,7 +319,7 @@ const Home: NextPage = () => {
             <h3 className={styles.info__title}>Nasze dane kontaktowe</h3>
             <div className={styles.info__grid}>
               <div className={styles.companyCard}>
-                <h4 className={styles.companyTitle}>RANGA</h4>
+                <h4 className={styles.companyTitle}>RANGA ASG</h4>
                 <ContactInfo icon={At} data={[{ text: "info@ranga.net.pl", link: "mailto:info@ranga.net.pl" }]} />
                 <ContactInfo
                   icon={Phone}

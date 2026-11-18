@@ -14,7 +14,7 @@ const UslugiAudytorskie: NextPage = () => {
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Usługi Audytorskie | Ranga × Warido" />
+        <meta property="og:title" content="Usługi Audytorskie | Ranga ASG × Ranga Audyt ASG" />
         <meta property="og:description" content="Świadczymy usługi w zakresie: Badań sprawozdań finansowych, Badań planów przekształcenia, Badań planów połączenia, Audyt projektów unijnych, Analizy finansowe." />
         <meta property="og:image" content="https://ranga.net.pl/feat.png" />
 
@@ -27,7 +27,7 @@ const UslugiAudytorskie: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="Usługi Audytorskie | Ranga × Warido" />
+        <meta name="twitter:title" content="Usługi Audytorskie | Ranga ASG × Ranga Audyt ASG" />
         <meta name="twitter:description" content="Świadczymy usługi w zakresie: Badań sprawozdań finansowych, Badań planów przekształcenia, Badań planów połączenia, Audyt projektów unijnych, Analizy finansowe." />
         <meta name="twitter:image" content="https://ranga.net.pl/feat.png" />
       </Head>
@@ -52,8 +52,6 @@ const UslugiAudytorskie: NextPage = () => {
         </ul>
         <hr />
         <SectionTitle text="Badanie sprawozdań finansowych">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua
         </SectionTitle>
         <ServiceHeading>Badanie sprawozdań finansowych ma na celu potwierdzenie, że:</ServiceHeading>
         <ul>

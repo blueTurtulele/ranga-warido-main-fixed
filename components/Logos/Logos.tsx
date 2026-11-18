@@ -16,36 +16,51 @@ const Logos: FC<Props> = ({ white }) => {
   return (
     <div className={styles.wrapper}>
       {/* LEWE LOGO RANGA */}
-      <Media at="xs">
-        <Image
-          width={34.72}
-          height={25}
-          src={white ? rangaSmallWhite : rangaSmall}
-          alt="Ranga"
-          priority={true}
-          draggable={false} 
-        />
-      </Media>
-      <Media at="sm">
-        <Image
-          width={50}
-          height={36}
-          src={white ? rangaSmallWhite : rangaSmall}
-          alt="Ranga"
-          priority={true}
-          draggable={false} 
-        />
-      </Media>
-      <Media greaterThan="sm">
-        <Image
-          width={162}
-          height={37}
-          src={white ? rangaWhite : ranga}
-          alt="Ranga"
-          priority={true}
-          draggable={false} 
-        />
-      </Media>
+            {/* LEWE LOGO RANGA + ASG */}
+      <div style={{ display: "flex", alignItems: "baseline", gap: "0.5rem" }}>
+        <Media at="xs">
+          <Image
+            width={34.72}
+            height={25}
+            src={white ? rangaSmallWhite : rangaSmall}
+            alt="Ranga"
+            priority={true}
+            draggable={false}
+          />
+        </Media>
+        <Media at="sm">
+          <Image
+            width={50}
+            height={36}
+            src={white ? rangaSmallWhite : rangaSmall}
+            alt="Ranga"
+            priority={true}
+            draggable={false}
+          />
+        </Media>
+        <Media greaterThan="sm">
+          <Image
+            width={162}
+            height={37}
+            src={white ? rangaWhite : ranga}
+            alt="Ranga"
+            priority={true}
+            draggable={false}
+          />
+        </Media>
+        <span
+          style={{
+            fontSize: "1rem",
+            fontWeight: 800,
+            letterSpacing: "0.05em",
+            whiteSpace: "nowrap",
+            color: white ? "#fff" : "inherit",
+          }}
+        >
+          ASG
+        </span>
+      </div>
+
 
       {/* SEPARATOR (X) */}
       <div className={classNames(styles.separator, { [styles["separator--white"]]: white })} />

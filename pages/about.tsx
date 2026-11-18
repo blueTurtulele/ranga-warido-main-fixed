@@ -87,7 +87,7 @@ const certificates: GalleryImage[] = [
     fullUrl: "/assets/certificates/7.jpg",
     fullWidth: 2464,
     fullHeight: 3440,
-    altText: "Wpis na listę podmiotów uprawnionych do badania RANGA",
+    altText: "Wpis na listę podmiotów uprawnionych do badania RANGA ASG",
   },
   {
     id: 8,
@@ -96,7 +96,7 @@ const certificates: GalleryImage[] = [
     fullUrl: "/assets/certificates/8.jpg",
     fullWidth: 2480,
     fullHeight: 3508,
-    altText: "Wpis na listę podmiotów uprawnionych do badania WARIDO",
+    altText: "Wpis na listę podmiotów uprawnionych do badania RANGA AUDYT ASG",
   },
 ];
 
@@ -112,7 +112,7 @@ const About: NextPage = () => {
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="O Nas | Ranga × Warido" />
+        <meta property="og:title" content="O Nas | Ranga ASG × Ranga Audyt ASG" />
         <meta
           property="og:description"
           content="Dbamy o wysoką jakość świadczonych usług, zachowanie tajemnicy informacji, obiektywizm i uczciwość. Staramy się wykonywać swoją pracę z należytą starannością i profesjonalizmem, nieustannie podnosząc wiedzę i kompetencje."
@@ -128,7 +128,7 @@ const About: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="O Nas | Ranga × Warido" />
+        <meta name="twitter:title" content="O Nas | Ranga ASG × Ranga Audyt ASG" />
         <meta
           name="twitter:description"
           content="Dbamy o wysoką jakość świadczonych usług, zachowanie tajemnicy informacji, obiektywizm i uczciwość. Staramy się wykonywać swoją pracę z należytą starannością i profesjonalizmem, nieustannie podnosząc wiedzę i kompetencje."
@@ -269,8 +269,9 @@ const About: NextPage = () => {
               }}
             />
             <div className={styles.tags}>
-              <FirmInfoTag tag="REGON" value="070868416" />
-              <FirmInfoTag tag="NIP" value="937-139-95-21" />
+              <FirmInfoTag tag="REGON" value="545995972" />
+              <FirmInfoTag tag="NIP" value="547-226-34-65" />
+              <FirmInfoTag tag="KRS" value="0001274118" />
             </div>
             <div className={styles.contact}>
               <ContactInfo icon={At} data={[{ text: "info@ranga.net.pl", link: "mailto:info@ranga.net.pl" }]} />
@@ -295,7 +296,7 @@ const About: NextPage = () => {
             </div>
             <div className={styles.content}>
               <h1 className={styles.content__title}>
-                Usługi Księgowe i Audytorskie „RANGA” Angelika Sadłoń-Grabska
+                RANGA ASG Sp z.o.o.
                 <span>Podmiot uprawniony do badania sprawozdań finansowych nr 4020</span>
               </h1>
               <Paragraph>

@@ -12,7 +12,7 @@ const UslugiKsiegowe: NextPage = () => {
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Usługi Księgowe | Ranga × Warido" />
+        <meta property="og:title" content="Usługi Księgowe | Ranga ASG × Ranga Audyt ASG" />
         <meta property="og:description" content="Prowadzenia ksiąg rachunkowych, ewidencji podatkowej oraz obsługi kadrowej." />
         <meta property="og:image" content="https://ranga.net.pl/feat.png" />
 
@@ -25,7 +25,7 @@ const UslugiKsiegowe: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="Usługi Księgowe | Ranga × Warido" />
+        <meta name="twitter:title" content="Usługi Księgowe | Ranga ASG × Ranga Audyt ASG" />
         <meta name="twitter:description" content="Prowadzenia ksiąg rachunkowych, ewidencji podatkowej oraz obsługi kadrowej." />
         <meta name="twitter:image" content="https://ranga.net.pl/feat.png" />
       </Head>

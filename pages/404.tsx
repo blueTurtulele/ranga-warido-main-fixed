@@ -8,12 +8,12 @@ const Page404: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Nie znaleźliśmy tej strony | Ranga × Warido</title>
+        <title>Nie znaleźliśmy tej strony | Ranga ASG × Ranga Audyt ASG</title>
         <meta name="robots" content="noindex" />
 
         <meta property="og:url" content="https://ranga.net.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Nie znaleźliśmy tej strony | Ranga × Warido" />
+        <meta property="og:title" content="Nie znaleźliśmy tej strony | Ranga ASG × Ranga Audyt ASG" />
         <meta property="og:image" content="https://ranga.net.pl/feat.png" />
 
         <meta property="og:image:url" content="http://ranga.net.pl/feat.png" />
@@ -25,7 +25,7 @@ const Page404: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ranga.net.pl" />
         <meta property="twitter:url" content="https://ranga.net.pl/" />
-        <meta name="twitter:title" content="Nie znaleźliśmy tej strony | Ranga × Warido" />
+        <meta name="twitter:title" content="Nie znaleźliśmy tej strony | Ranga ASG × Ranga Audyt ASG" />
         <meta name="twitter:image" content="https://ranga.net.pl/feat.png" />
       </Head>
       <div className={styles.wrapper}>
